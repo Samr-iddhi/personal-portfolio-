@@ -16,7 +16,7 @@
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fas fa-times" onclick="closemenu()"></i>
          </ul>
@@ -37,7 +37,8 @@
   <div class="comtainer">
     <div class="row">
       <div class="about-col-1">
-        <img src="/image/user.jpg" height="400" width="420">
+        
+        <img src="image/phone-background.jpg" height="400" width="420">
       </div>
         <div class="about-col-2">
              <div class="about-sam">
@@ -50,7 +51,7 @@
           <div class="skills-sam">
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-              <p class="tab-links" onclick="opentab('education')">Eduaction</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
              
             </div>
             <div class="tab-contents active-tab" id="skills">
@@ -119,7 +120,7 @@
   </div>
  </div>
  <!--------------- PORTFOLIO---------------- -->
- <div class="portfolio">
+ <div id="portfolio">
   <div class="container">
     <h1 class="sub-title">My Work</h1>
     <div class="work-list">
@@ -174,8 +175,9 @@
             <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
           </div>
           <a href="/image/resume 1.pdf" download class="btn btn2">Download CV</a>
-            <div class="con-div">
-              <div class="contact-right"></div>
+            <!-- <div class="con-div"> -->
+        </div>
+              <div class="contact-right">
           <form name="submit-to-google-sheet" class="contact-form">
              <input type="text" name="Name" placeholder="Your  Name" required>
              <input type="email" name="email" placeholder="Your Email" required>
@@ -183,12 +185,12 @@
              <button type="submit" class="btn btn2">Submit</button>
           </form>
           <span id="msg"></span>
-            </div>
-          
-      </div>
         </div>
+          
+          
+       
         
-    </div> 
+     </div> 
   </div>
   <div class="copyright">
     <p>copyright © Samriddhi 2024. All Rights Reserved.<i class="fa-solid fa-heart"></i> </p>
